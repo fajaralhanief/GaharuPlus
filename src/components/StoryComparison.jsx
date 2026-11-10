@@ -116,15 +116,15 @@ export default function StoryComparison() {
             {/* Visual Thumbnail: Pure Golden Herbal Elixir Droplet */}
             <div className="relative aspect-[21/9] w-full overflow-hidden bg-forest-950">
               <img 
-                src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=80" 
-                alt="Minyak Herbal Gaharu Plus Murni Berkualitas" 
+                src="/products/gaharu-hand-spray.jpg" 
+                alt="Semprotan Mist Minyak Herbal Gaharu Plus Murni Cepat Meresap" 
                 className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-forest-900 via-forest-900/60 to-transparent" />
               <div className="absolute top-3 left-4 flex items-center gap-2">
                 <span className="text-xs font-bold text-forest-950 bg-amberGold-500 px-3 py-1 rounded-full shadow-md">
-                  Inovasi Ekstrak Gaharu Grade A
+                  Semprotan Mist Praktis & Tidak Lengket
                 </span>
               </div>
             </div>

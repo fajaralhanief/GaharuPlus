@@ -292,8 +292,8 @@ export default function HeroCarousel() {
                     {/* Product Photo Showcase */}
                     <div className="relative rounded-2xl overflow-hidden aspect-[4/5] bg-linen-100 flex items-center justify-center group">
                       <img 
-                        src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80" 
-                        alt="Botol Minyak Balur Herbal Gaharu Plus 100ml" 
+                        src="/products/gaharu-main-stone.jpg" 
+                        alt="Botol & Kemasan Minyak Balur Herbal Gaharu Plus 100ml Asli" 
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                         loading="eager"
                       />
@@ -316,10 +316,10 @@ export default function HeroCarousel() {
                         </div>
                       </div>
 
-                      {/* Small Placeholder hint pill */}
-                      <div className="absolute top-3 right-3 bg-forest-950/70 backdrop-blur-md text-[10px] text-linen-200 px-2 py-0.5 rounded-md flex items-center gap-1 border border-linen-300/20">
-                        <Camera className="w-3 h-3 text-amberGold-400" />
-                        <span>Foto Produk Asli</span>
+                      {/* Authentic Product Badge */}
+                      <div className="absolute top-3 right-3 bg-forest-950/80 backdrop-blur-md text-[10px] text-amberGold-300 font-semibold px-2.5 py-1 rounded-full flex items-center gap-1.5 border border-amberGold-400/30 shadow-md">
+                        <Sparkles className="w-3 h-3 text-amberGold-400" />
+                        <span>Produk Asli 100% Organik</span>
                       </div>
                     </div>
 
@@ -364,18 +364,18 @@ export default function HeroCarousel() {
                       </span>
                     </div>
 
-                    {/* Image of Real Agarwood Chips & Resin */}
+                    {/* Image of Real Agarwood Chips & Resin with Product */}
                     <div className="my-4 rounded-2xl overflow-hidden aspect-[16/10] relative shadow-md">
                       <img 
-                        src="https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=800&q=80" 
-                        alt="Potongan Kayu Gaharu Alami dan Getah Resin Berkhasiat" 
+                        src="/products/gaharu-wood-flatlay.jpg" 
+                        alt="Potongan Kayu Gaharu Alami, Rempah Bunga Lawang dan Kemasan Gaharu Plus" 
                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                         loading="eager"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-forest-950/80 via-transparent to-transparent" />
                       <div className="absolute bottom-2.5 left-3 text-xs font-semibold text-linen-100 flex items-center gap-1.5">
                         <Sparkles className="w-3.5 h-3.5 text-amberGold-400" />
-                        <span>Getah Resin Kayu Gaharu Alami Nusantara</span>
+                        <span>Kayu Gaharu & Rempah Nusantara Asli</span>
                       </div>
                     </div>
 
@@ -423,18 +423,18 @@ export default function HeroCarousel() {
                       </div>
                     </div>
 
-                    {/* Photo of Calming Restful Sleep sanctuary */}
+                    {/* Photo of Calming Restful Sleep sanctuary with Gaharu Plus */}
                     <div className="my-4 rounded-2xl overflow-hidden aspect-[16/10] relative shadow-md">
                       <img 
-                        src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80" 
-                        alt="Kenyamanan Tidur Lelap dan Kebugaran Pagi Hari bersama Gaharu Plus" 
+                        src="/products/gaharu-bedside-night.jpg" 
+                        alt="Ritual Gaharu Plus di Meja Tidur untuk Tidur Lelap Bebas Insomnia" 
                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                         loading="eager"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-forest-950/70 via-transparent to-transparent" />
                       <div className="absolute bottom-2.5 left-3 text-xs font-semibold text-white flex items-center gap-1.5">
                         <Moon className="w-3.5 h-3.5 text-amberGold-400" />
-                        <span>Kenyamanan Tidur Pulas & Otot Relaks</span>
+                        <span>Ritual Balur Sebelum Tidur Nyenyak</span>
                       </div>
                     </div>
 

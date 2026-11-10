@@ -316,6 +316,83 @@ export default function TitikBalur() {
 
         </div>
 
+        {/* Supporting Ritual & Usage Visual Cards */}
+        <motion.div 
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6"
+        >
+          {/* Card 1: Pijat Terapi Balur Tulang Belakang */}
+          <div className="rounded-3xl bg-forest-900/90 border border-forest-700/80 overflow-hidden shadow-luxury group flex flex-col justify-between">
+            <div className="relative aspect-[16/10] w-full overflow-hidden">
+              <img 
+                src="/products/gaharu-therapy-massage.jpg" 
+                alt="Terapi Pijat Balur Tulang Belakang dengan Gaharu Plus" 
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-forest-950/40 to-transparent" />
+              <div className="absolute top-4 left-4">
+                <span className="px-3 py-1 rounded-full text-xs font-bold bg-amberGold-500 text-forest-950 shadow-md">
+                  Minyak Urut & Terapi Balur
+                </span>
+              </div>
+            </div>
+            
+            <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 className="font-serif text-xl sm:text-2xl font-bold text-linen-50 mb-2">
+                  Terapi Balur Sepanjang Tulang Belakang
+                </h4>
+                <p className="text-xs sm:text-sm text-linen-200 leading-relaxed">
+                  Dapat digunakan sebagai minyak urut dan terapi balur. Balurkan merata dari tengkuk leher hingga tulang ekor untuk membuyarkan stagnasi Ci, menstabilkan Yin-Yang, serta melancarkan sirkulasi peredaran darah dan meredakan syaraf kejepit.
+                </p>
+              </div>
+
+              <div className="mt-4 pt-4 border-t border-forest-800 flex items-center gap-2 text-xs text-amberGold-300 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                <span>Meredakan bengkak, keseleo, rematik & salah urat</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 2: Ritual Hangat & Aromaterapi Sebelum Tidur */}
+          <div className="rounded-3xl bg-forest-900/90 border border-forest-700/80 overflow-hidden shadow-luxury group flex flex-col justify-between">
+            <div className="relative aspect-[16/10] w-full overflow-hidden">
+              <img 
+                src="/products/gaharu-hands-rubbing.jpg" 
+                alt="Ritual Menggosok Telapak Tangan & Menghirup Aromaterapi Gaharu Plus" 
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-forest-950/40 to-transparent" />
+              <div className="absolute top-4 left-4">
+                <span className="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500 text-forest-950 shadow-md">
+                  Aroma Terapi & Penenang Stres
+                </span>
+              </div>
+            </div>
+            
+            <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 className="font-serif text-xl sm:text-2xl font-bold text-linen-50 mb-2">
+                  Ritual Hangat & Relaksasi Sebelum Tidur
+                </h4>
+                <p className="text-xs sm:text-sm text-linen-200 leading-relaxed">
+                  Gosokkan minyak di kedua telapak tangan hingga timbul kehangatan menenangkan, lalu hirup aromanya secara perlahan. Keharuman getah gaharu alami berfungsi sebagai obat penenang, pereda stres, migrain, dan memicu tidur pulas tanpa mimpi buruk.
+                </p>
+              </div>
+
+              <div className="mt-4 pt-4 border-t border-forest-800 flex items-center gap-2 text-xs text-emerald-300 font-medium">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                <span>Tidak lengket di kulit & cepat meresap sempurna</span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
       </div>
     </section>
   );
