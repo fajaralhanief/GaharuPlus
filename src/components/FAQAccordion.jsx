@@ -1,26 +1,42 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, HelpCircle, CheckCircle2 } from 'lucide-react';
 
 export default function FAQAccordion() {
   const [openIndex, setOpenIndex] = useState(0);
 
   const faqs = [
     {
-      q: 'Apakah Gaharu Plus aman digunakan untuk anak-anak dan lansia?',
-      a: 'Sangat aman. Gaharu Plus diracik dari 100% bahan rempah alami tanpa bahan kimia sintetis (BKO) dan tanpa paraben. Efek hangatnya berasal dari jahe merah dan rempah alami yang lembut di kulit, tidak menimbulkan rasa panas menyengat seperti balsem, sehingga aman dibalurkan pada anak di atas usia 2 tahun serta orang tua/lansia.'
+      q: 'Keluhan apa saja yang dapat dibantu pemulihannya dengan Minyak Balur Gaharu Plus?',
+      a: (
+        <div className="space-y-2">
+          <p>Minyak Balur Gaharu Plus berkhasiat komprehensif untuk beragam keluhan:</p>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-xs text-charcoal-700 pt-1">
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Nyeri rematik, asam urat & sendi</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Syaraf kejepit & neuropati diabetik</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Kesemutan, kram & otot kejang</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Gatal-gatal alergi & gigitan serangga</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Bengkak terpukul, keseleo & salah urat</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Mual, maag, kembung & begah</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Vertigo, migrain & mabuk perjalanan</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Membantu menyembuhkan kutil</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Stabilkan Yin-Yang & buyarkan stagnasi Ci</li>
+            <li className="flex items-center gap-1.5"><CheckCircle2 className="w-3.5 h-3.5 text-amberGold-600 flex-shrink-0" /> Tambah gairah hubungan suami-istri</li>
+          </ul>
+        </div>
+      )
     },
     {
-      q: 'Apa perbedaan utama Gaharu Plus dibandingkan minyak balur lainnya?',
-      a: 'Keunggulan utama terletak pada kandungan ekstrak getah Kayu Gaharu (Oud) Grade A yang langka dan bernilai tinggi. Selain khasiat meredakan nyeri fisik, aroma gaharu memberikan efek relaksasi batin yang mewah (aromaterapi penenang saraf), tidak berbau jamu tajam, cepat meresap, dan tidak meninggalkan rasa lengket atau noda kuning kotor di pakaian.'
+      q: 'Bagaimana cara dan waktu penggunaan yang paling tepat?',
+      a: 'Cukup oleskan dan balurkan secara merata ke lokasi dimana terdapat keluhan serta kedua telapak kaki setiap sebelum tidur malam dan setelah mandi pagi/sore. Formulanya lembut, tidak lengket, cepat meresap ke pori-pori, dan tidak meninggalkan noda kotor pada pakaian atau sprei.'
     },
     {
-      q: 'Apakah produk ini sudah memiliki izin edar resmi BPOM?',
-      a: 'Ya, resmi terdaftar di Badan Pengawas Obat dan Makanan (BPOM) Republik Indonesia dengan nomor registrasi POM TR: 236081291 serta telah mengantongi Sertifikat Halal Indonesia dari MUI. Anda dapat mengecek keaslian nomor registrasi ini secara langsung di laman resmi BPOM.'
+      q: 'Apakah Gaharu Plus aman untuk kulit sensitif dan benar berkhasiat Anti Gatal & Alergi?',
+      a: 'Sangat aman dan terbukti ampuh. Gaharu Plus diracik dari 100% Organik Natural Herbal (daun & kayu Aquilaria malaccensis, Cendana, Rosemary, Zaitun murni, VCO kelapa, dan Cajuput oil). Minyak ini berfungsi sebagai antiseptik alami yang menetralkan racun di permukaan kulit, meredakan gatal alergi seketika, serta menjaga elastisitas dan kelembutan kulit.'
     },
     {
-      q: 'Berapa kali pemakaian yang dianjurkan dalam sehari?',
-      a: 'Untuk menjaga kebugaran rutin, balurkan 1–2 kali sehari terutama sebelum tidur malam di telapak kaki dan sepanjang tulang belakang. Untuk membantu penyembuhan keluhan tertentu (seperti nyeri sendi akut, keseleo, atau masuk angin), dapat dibalurkan 3–4 kali sehari pada area yang bermasalah.'
+      q: 'Apakah produk ini sudah memiliki izin edar resmi BPOM dan Sertifikasi Halal?',
+      a: 'Ya, resmi terdaftar di Badan Pengawas Obat dan Makanan (BPOM) Republik Indonesia dengan nomor registrasi POM TR: 236081291 serta memiliki Sertifikat Halal Resmi dari MUI. Anda dapat mengecek keabsahan nomor izin edar ini langsung di situs resmi BPOM.'
     },
     {
       q: 'Apakah bisa melakukan pembayaran di tempat (COD)?',
@@ -52,7 +68,7 @@ export default function FAQAccordion() {
             <span className="italic text-gold-gradient font-serif">Diajukan Konsumen</span>
           </h2>
           <p className="text-charcoal-600 text-base">
-            Jawaban lengkap dan transparan seputar cara pakai, keamanan, legalitas BPOM, dan pengiriman Gaharu Plus.
+            Jawaban lengkap dan transparan seputar khasiat, aturan pakai, keamanan herbal, dan legalitas BPOM Gaharu Plus.
           </p>
         </motion.div>
 
@@ -72,7 +88,7 @@ export default function FAQAccordion() {
                 <button
                   type="button"
                   onClick={() => toggle(idx)}
-                  className="w-full p-6 text-left flex items-center justify-between gap-4 font-serif text-lg font-bold text-forest-950 focus:outline-none"
+                  className="w-full p-6 text-left flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-forest-950 focus:outline-none"
                 >
                   <span>{faq.q}</span>
                   <motion.div
@@ -108,4 +124,3 @@ export default function FAQAccordion() {
     </section>
   );
 }
-

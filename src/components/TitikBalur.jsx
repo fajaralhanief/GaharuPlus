@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, CheckCircle2, ShieldCheck, Flame, Activity } from 'lucide-react';
+import { Sparkles, CheckCircle2, ShieldCheck, Flame, Activity, Clock } from 'lucide-react';
 
 export default function TitikBalur() {
   const [selectedPoint, setSelectedPoint] = useState('tulang-belakang');
@@ -291,6 +291,19 @@ export default function TitikBalur() {
                         <p className="text-linen-200 text-xs leading-relaxed">
                           {currentData.step3}
                         </p>
+                      </div>
+
+                      {/* Aturan Pemakaian Resmi Gaharu Plus */}
+                      <div className="p-4 rounded-2xl bg-amberGold-500/10 border border-amberGold-500/30 flex items-start gap-3">
+                        <Clock className="w-4 h-4 text-amberGold-400 flex-shrink-0 mt-0.5" />
+                        <div>
+                          <h5 className="font-bold text-amberGold-300 text-xs uppercase tracking-wider">
+                            Aturan Pemakaian Resmi:
+                          </h5>
+                          <p className="text-xs text-linen-100 mt-1 leading-relaxed">
+                            Oleskan ke lokasi dimana terdapat keluhan dan kedua telapak kaki <strong>sebelum tidur</strong> dan <strong>setelah mandi</strong> untuk hasil pemulihan optimal.
+                          </p>
+                        </div>
                       </div>
                     </motion.div>
                   </AnimatePresence>

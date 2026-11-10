@@ -42,7 +42,7 @@ export default function CTASection() {
           transition={{ duration: 0.6 }}
           className="text-linen-200 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed"
         >
-          Jangan biarkan pegal linu, kelelahan, dan malam-malam tanpa tidur mengganggu produktivitas hidup Anda. Pesan Gaharu Plus sekarang dan rasakan perbedaannya sejak tetes pertama.
+          Jangan biarkan nyeri sendi, syaraf kejepit, gatal alergi, dan malam-malam tanpa tidur mengganggu kualitas hidup Anda. Balurkan Gaharu Plus sebelum tidur dan setelah mandi, dan rasakan khasiatnya sejak tetes pertama.
         </motion.p>
 
         <motion.div 

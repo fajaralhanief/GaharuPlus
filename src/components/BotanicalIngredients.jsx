@@ -1,57 +1,57 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles } from 'lucide-react';
+import { Sparkles, ShieldCheck, Leaf, Heart } from 'lucide-react';
 import { slideUp, staggerContainer } from '../utils/animations';
 
 export default function BotanicalIngredients() {
   const botanicals = [
     {
       id: 2,
-      name: 'Jahe Merah Pilihan',
-      latin: 'Zingiber Officinale Var. Rubrum',
-      image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80',
-      benefit: 'Kadar gingerol dan shogaol tertinggi untuk mengalirkan sirkulasi darah, menghangatkan tubuh hingga ke tulang, dan meluruhkan kembung.',
-      tag: 'Pemanas Alami Tubuh',
+      name: 'Kayu Cendana Asli',
+      latin: 'Santalum Album',
+      image: 'https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=600&q=80',
+      benefit: 'Aromaterapi relaksasi jiwa berkelas tinggi yang menenangkan sistem saraf, meredakan stres, dan membantu menyeimbangkan energi Yin-Yang tubuh.',
+      tag: 'Aromaterapi & Penenang Stres',
     },
     {
       id: 3,
-      name: 'Minyak Kelapa Murni (VCO)',
-      latin: 'Cocos Nucifera Oil',
-      image: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=600&q=80',
-      benefit: 'Diekstrak dingin (cold-pressed) sebagai carrier oil alami yang menjaga kelembapan kulit dan mempermudah penetrasi rempah ke pori-pori.',
-      tag: 'Carrier Oil & Pelembap',
+      name: 'Rosemary Alami',
+      latin: 'Salvia Rosmarinus',
+      image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80',
+      benefit: 'Meningkatkan mikrosirkulasi peredaran darah, meredakan pegal linu seluruh tubuh, kram otot, tegang leher, serta meringankan nyeri sendi dan asam urat.',
+      tag: 'Pelancar Sirkulasi & Otot Kram',
     },
     {
       id: 4,
-      name: 'Cengkeh Nusantara',
-      latin: 'Syzygium Aromaticum',
-      image: 'https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80',
-      benefit: 'Kaya senyawa aktif Eugenol murni yang bertindak sebagai analgesik alami penghilang rasa ngilu pada persendian dan pegal punggung.',
-      tag: 'Analgesik Pereda Nyeri',
+      name: 'Minyak Zaitun Murni',
+      latin: 'Oleum Olivarum',
+      image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80',
+      benefit: 'Kaya asam lemak esensial dan antioksidan yang menjaga elastisitas kulit, cepat menyerap ke dalam pori-pori, melembutkan kulit tanpa rasa lengket.',
+      tag: 'Elastisitas & Cepat Menyerap',
     },
     {
       id: 5,
-      name: 'Serai Wangi Segar',
-      latin: 'Cymbopogon Nardus',
-      image: 'https://images.unsplash.com/photo-1615485500704-8e990f9900f7?auto=format&fit=crop&w=600&q=80',
-      benefit: 'Memberikan kesegaran aromaterapi pelega rongga pernapasan, meredakan gatal alergi ringan, serta melindungi dari gigitan serangga.',
-      tag: 'Pelega Napas & Anti-Nyamuk',
+      name: 'Minyak Kelapa Murni (VCO)',
+      latin: 'Cocos Nucifera Oil',
+      image: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=600&q=80',
+      benefit: 'Carrier oil organik dengan sifat antiseptik alami. Efektif meredakan gatal-gatal alergi, luka terpukul, gigitan serangga, serta menyembuhkan kutil.',
+      tag: 'Anti Gatal, Alergi & Antiseptik',
     },
     {
       id: 6,
-      name: 'Bunga Lawang & Adas',
-      latin: 'Illicium Verum',
-      image: 'https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=600&q=80',
-      benefit: 'Antioksidan kuat yang menenangkan kontraksi otot lambung, meredakan begah, kolik, serta meningkatkan stamina kekebalan tubuh.',
-      tag: 'Penenang Pencernaan',
+      name: 'Minyak Kayu Putih Murni',
+      latin: 'Melaleuca Cajuputi Powell',
+      image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80',
+      benefit: 'Menghadirkan kehangatan mendalam pereda masuk angin, mual, maag, perut kembung, begah, vertigo, mabuk perjalanan, dan menetralisir racun kulit.',
+      tag: 'Pencernaan & Masuk Angin',
     },
     {
       id: 7,
-      name: 'Kayu Manis Alami',
-      latin: 'Cinnamomum Verum',
-      image: 'https://images.unsplash.com/photo-1509358740172-f77c168f6312?auto=format&fit=crop&w=600&q=80',
-      benefit: 'Menyeimbangkan aroma gaharu, menutrisi lapisan kulit terluar, serta memberi sensasi kehangatan aromatik manis yang menenangkan.',
-      tag: 'Antioksidan & Nutrisi Kulit',
+      name: '+30 Tanaman Berkhasiat Obat',
+      latin: 'Formulasi Herbal Tradisi Nusantara',
+      image: 'https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=600&q=80',
+      benefit: 'Sinergi rempah obat pilihan nusantara (Cengkeh, Jahe Merah, Temulawak, Adas, dll.) untuk menuntaskan nyeri neuropati diabetik, syaraf kejepit, dan beri-beri.',
+      tag: 'Sinergi 30+ Rempah Obat',
     },
   ];
 
@@ -68,14 +68,14 @@ export default function BotanicalIngredients() {
           className="text-center max-w-3xl mx-auto mb-16 space-y-4"
         >
           <span className="text-xs uppercase tracking-[0.25em] font-bold text-forest-700 block">
-            Kemurnian Tanpa Kompromi
+            100% Organik Natural Herbal
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-950">
-            7 Mahakarya Rempah Nusantara <br className="hidden sm:inline" />
-            <span className="italic text-gold-gradient font-serif">Diperkaya Getah Gaharu Murni</span>
+            Kemurnian Kandungan Alami <br className="hidden sm:inline" />
+            <span className="italic text-gold-gradient font-serif">Daun & Kayu Gaharu Pilihan</span>
           </h2>
           <p className="text-charcoal-600 text-base sm:text-lg">
-            Setiap tetes Gaharu Plus diproses melalui ekstraksi modern bersuhu rendah demi menjaga keutuhan zat bioaktif alami di dalamnya.
+            Minyak Balur Gaharu Plus diracik murni dari daun dan kayu <em>Aquilaria malaccensis</em>, diperkuat 5 intisari botani premium serta dilengkapi lebih dari 30 jenis tanaman berkhasiat obat nusantara.
           </p>
         </motion.div>
 
@@ -88,7 +88,7 @@ export default function BotanicalIngredients() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           
-          {/* Ingredient 1: Kayu Gaharu (Main Hero Feature - 2 columns span on large) */}
+          {/* Ingredient 1: Kayu & Daun Gaharu (Main Hero Feature - 2 columns span on large) */}
           <motion.div 
             variants={slideUp}
             whileHover={{ y: -6 }}
@@ -98,7 +98,7 @@ export default function BotanicalIngredients() {
             <div className="relative aspect-[16/9] w-full overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?auto=format&fit=crop&w=1000&q=80" 
-                alt="Getah Resin Kayu Gaharu (Aquilaria Malaccensis) Grade Super" 
+                alt="Daun dan Kayu Gaharu (Aquilaria Malaccensis)" 
                 className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
@@ -106,7 +106,7 @@ export default function BotanicalIngredients() {
               
               <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
                 <span className="px-3 py-1 rounded-full text-xs font-bold bg-amberGold-500 text-forest-950 shadow-md">
-                  Bahan Utama Eksklusif
+                  Bahan Inti Utama
                 </span>
                 <span className="text-xs text-amberGold-300 font-mono bg-forest-950/70 px-2.5 py-1 rounded-md backdrop-blur-sm">
                   Aquilaria Malaccensis
@@ -116,61 +116,72 @@ export default function BotanicalIngredients() {
 
             <div className="p-6 sm:p-8 pt-2">
               <h3 className="font-serif text-3xl font-bold text-linen-50 mb-3">
-                Getah Kayu Gaharu (Oud)
+                Daun & Getah Kayu Gaharu
               </h3>
-              <p className="text-linen-200 text-sm leading-relaxed mb-6">
-                Raja dari segala wewangian dan tanaman obat kuno. Ekstrak resin gaharu kaya akan senyawa <em>sesquiterpene</em> alami yang terbukti secara ilmiah sanggup menenangkan sistem saraf pusat, meredakan peradangan sendi mendalam, serta membuka aliran energi vital tubuh yang tersumbat.
+              
+              <p className="text-sm text-linen-200 leading-relaxed mb-6">
+                Ekstrak daun dan inti kayu gaharu pilihan yang secara empiris terbukti membuyarkan stagnasi energi Ci, menstabilkan Yin-Yang, meredakan nyeri saraf terdalam, serta bekerja sebagai aromaterapi penenang pikiran yang meningkatkan keharmonisan hubungan intim.
               </p>
 
-              <div className="grid grid-cols-2 gap-4 pt-5 border-t border-forest-800 text-xs">
-                <div>
-                  <span className="text-amberGold-400 font-bold block mb-0.5">Khasiat Inti</span>
-                  <span className="text-linen-300">Relaksasi, Anti-Stres, Pulihkan Vitalitas</span>
-                </div>
-                <div>
-                  <span className="text-amberGold-400 font-bold block mb-0.5">Karakter Aroma</span>
-                  <span className="text-linen-300">Hangat, Kayu Mewah, Menenangkan Batin</span>
-                </div>
+              <div className="grid grid-cols-2 gap-3 pt-4 border-t border-forest-800 text-xs text-amberGold-300 font-medium">
+                <span className="flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amberGold-400" />
+                  Buyarkan Stagnasi Ci & Nyeri
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amberGold-400" />
+                  Stabilkan Keseimbangan Yin-Yang
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amberGold-400" />
+                  Aromaterapi Penenang Stres
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amberGold-400" />
+                  Meningkatkan Gairah & Keharmonisan
+                </span>
               </div>
             </div>
           </motion.div>
 
-          {/* 6 Other Botanicals with Photo Cards */}
-          {botanicals.map((bot) => (
+          {/* Other 6 Botanical Ingredients */}
+          {botanicals.map((item) => (
             <motion.div
-              key={bot.id}
+              key={item.id}
               variants={slideUp}
               whileHover={{ y: -6 }}
-              className="rounded-3xl bg-white border border-linen-300 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between overflow-hidden group"
+              className="rounded-3xl bg-white border border-linen-300 shadow-sm hover:shadow-luxury transition-all duration-300 flex flex-col justify-between overflow-hidden group"
             >
               <div>
-                {/* Botanical Photo Thumbnail */}
-                <div className="aspect-[16/10] w-full overflow-hidden bg-linen-100 relative">
+                <div className="relative aspect-[4/3] w-full overflow-hidden">
                   <img 
-                    src={bot.image} 
-                    alt={`Bahan Alami ${bot.name}`} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    src={item.image} 
+                    alt={item.name} 
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-                  <span className="absolute bottom-2 left-3 text-[10px] font-mono text-linen-100 bg-forest-950/60 px-2 py-0.5 rounded backdrop-blur-sm">
-                    {bot.latin}
+                  <span className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-forest-950/80 text-linen-100 backdrop-blur-sm border border-forest-800">
+                    {item.tag}
                   </span>
                 </div>
 
-                <div className="p-6">
-                  <h4 className="font-serif text-xl font-bold text-forest-950 mb-2">
-                    {bot.name}
+                <div className="p-5">
+                  <span className="text-[11px] font-mono text-amberGold-700 block italic mb-1">
+                    {item.latin}
+                  </span>
+                  <h4 className="font-serif text-lg font-bold text-forest-950 mb-2">
+                    {item.name}
                   </h4>
-                  <p className="text-charcoal-600 text-xs leading-relaxed mb-4">
-                    {bot.benefit}
+                  <p className="text-xs text-charcoal-600 leading-relaxed">
+                    {item.benefit}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-6 pt-0">
-                <span className="text-[11px] font-semibold text-forest-700 bg-forest-50 px-2.5 py-1 rounded-md inline-block">
-                  {bot.tag}
+              <div className="px-5 pb-5 pt-2">
+                <span className="text-[11px] font-semibold text-forest-700 inline-flex items-center gap-1">
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+                  100% Organik Bersertifikat
                 </span>
               </div>
             </motion.div>
@@ -178,23 +189,33 @@ export default function BotanicalIngredients() {
 
         </motion.div>
 
-        {/* Purity Statement Banner */}
+        {/* Official Formulation Guarantee Banner */}
         <motion.div 
-          initial={{ opacity: 0, y: 15 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="mt-12 p-6 rounded-2xl bg-forest-100/60 border border-forest-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left"
+          transition={{ duration: 0.6 }}
+          className="mt-12 p-6 sm:p-8 rounded-3xl bg-forest-900 border border-amberGold-500/30 text-linen-100 flex flex-col md:flex-row items-center justify-between gap-6"
         >
-          <div className="flex items-center gap-3">
-            <Sparkles className="w-6 h-6 text-forest-800 flex-shrink-0" />
-            <span className="text-sm text-forest-950 font-medium">
-              Seluruh bahan baku dipanen dari perkebunan organik terstandar di nusantara dan diuji di laboratorium bersertifikasi.
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-amberGold-500/20 border border-amberGold-400/40 flex items-center justify-center flex-shrink-0 text-amberGold-400">
+              <Leaf className="w-6 h-6" />
+            </div>
+            <div>
+              <h4 className="font-serif text-lg font-bold text-linen-50">
+                Formulasi Murni 100% Organik Natural Herbal
+              </h4>
+              <p className="text-xs text-linen-300 mt-1 max-w-2xl leading-relaxed">
+                Bebas bahan kimia sintetis (BKO), bebas pewarna atau pengawet buatan. Diperkaya intisari <em>Aquilaria malaccensis</em>, <em>Santalum album</em>, <em>Salvia rosmarinus</em>, <em>Oleum olivarum</em>, <em>Cocos nucifera</em>, <em>Melaleuca cajuputi Powell</em>, dan lebih dari 30 tanaman obat nusantara.
+              </p>
+            </div>
+          </div>
+          <div className="flex-shrink-0">
+            <span className="px-4 py-2 rounded-xl bg-forest-800 text-amberGold-300 text-xs font-bold border border-amberGold-400/30 inline-flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" />
+              POM TR: 236081291
             </span>
           </div>
-          <a href="#paket" className="text-xs uppercase tracking-wider font-bold text-forest-800 hover:text-forest-950 underline underline-offset-4 flex-shrink-0">
-            Dapatkan Keaslian Produk &rarr;
-          </a>
         </motion.div>
 
       </div>

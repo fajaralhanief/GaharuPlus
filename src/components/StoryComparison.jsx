@@ -159,19 +159,19 @@ export default function StoryComparison() {
                   <span className="w-5 h-5 rounded-full bg-amberGold-400 text-forest-950 flex items-center justify-center text-xs font-bold mt-0.5 flex-shrink-0">
                     ✓
                   </span>
-                  <span><strong className="text-amberGold-300">Nano Herbal Penetrasi Tinggi:</strong> Minyak mudah dibalur, cepat diserap pori-pori kulit tanpa meninggalkan rasa lengket ataupun noda pakaian.</span>
+                  <span><strong className="text-amberGold-300">Anti Gatal, Antiseptik & Cepat Meresap:</strong> Tidak lengket di kulit, melembutkan dan menjaga elastisitas kulit, serta menetralisir racun gigitan serangga tanpa noda pakaian.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-5 h-5 rounded-full bg-amberGold-400 text-forest-950 flex items-center justify-center text-xs font-bold mt-0.5 flex-shrink-0">
                     ✓
                   </span>
-                  <span><strong className="text-amberGold-300">Hangat Menembus Otot Terdalam:</strong> Tidak membakar kulit luar, rasa hangat bertahan berjam-jam untuk mengurai ketegangan sendi & otot kaku.</span>
+                  <span><strong className="text-amberGold-300">Hangat Menembus Otot Terdalam:</strong> Tidak membakar kulit luar, rasa hangat bertahan berjam-jam untuk mengurai ketegangan saraf, syaraf kejepit & otot kaku.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-5 h-5 rounded-full bg-amberGold-400 text-forest-950 flex items-center justify-center text-xs font-bold mt-0.5 flex-shrink-0">
                     ✓
                   </span>
-                  <span><strong className="text-amberGold-300">Sinergi 7 Botanical Elixir:</strong> Kombinasi Gaharu murni, Jahe Merah, Cengkeh, VCO, dan Serai Wangi yang bekerja secara holistik.</span>
+                  <span><strong className="text-amberGold-300">100% Organik Natural Herbal:</strong> Sinergi daun & kayu Aquilaria malaccensis, Santalum album (Cendana), Rosemary, Zaitun, VCO, Cajuput oil, dan 30+ tanaman obat berkhasiat.</span>
                 </li>
               </ul>
             </div>

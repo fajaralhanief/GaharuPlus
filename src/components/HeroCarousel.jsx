@@ -25,12 +25,12 @@ export default function HeroCarousel() {
     // SLIDE 1: INTRODUKSI PRODUK GAHARU PLUS & BOTOL AMBER
     {
       id: 1,
-      badge: 'Inovasi Minyak Balur Nusantara • Ekstrak Gaharu Asli',
+      badge: 'Minyak Balur Gaharu Plus • Anti Gatal & Alergi',
       badgeIcon: Sparkles,
       bgImage: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=1920&q=80', // Tropical foliage with morning dew
       title: 'Pulihkan Kebugaran Tubuh & Ketenangan Jiwa dengan',
       titleHighlight: 'Gaharu Murni.',
-      description: 'Lebih dari sekadar minyak balur biasa. Gaharu Plus memadukan keajaiban getah kayu gaharu (oud) langka dengan intisari rempah herbal nusantara pilihan. Cepat meresap hingga otot terdalam, beraroma mewah menenangkan, dan efektif meredakan pegal, insomnia, serta memulihkan energi alami tubuh.',
+      description: 'Minyak balur 100% Organik Natural Herbal dengan formula Anti Gatal & Alergi. Memadukan daun dan kayu Aquilaria malaccensis, Cendana, Rosemary, Zaitun, VCO, dan Cajuput oil. Cepat meresap tanpa lengket, meredakan rematik, neuropati diabetik, syaraf kejepit, maag, kembung, hingga memulihkan energi alami tubuh.',
       primaryBtnText: 'Pesan Cepat via WhatsApp',
       primaryBtnHref: 'https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20tertarik%20dengan%20promo%20Gaharu%20Plus%20hari%20ini.',
       secondaryBtnText: 'Pelajari Khasiat & Manfaat',
@@ -40,27 +40,27 @@ export default function HeroCarousel() {
     // SLIDE 2: BAHAN UTAMA GAHARU (THE WOOD OF THE GODS)
     {
       id: 2,
-      badge: 'Warisan Medis Para Raja Kuno Nusantara',
+      badge: 'Warisan Medis Para Raja • Penyeimbang Yin-Yang & Ci',
       badgeIcon: Award,
       bgImage: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1920&q=80', // Ancient mystical rainforest canopy
       title: 'Getah Kayu Gaharu: "Emas Hitam Hutan" Bernilai',
       titleHighlight: 'Melebihi Emas.',
-      description: 'Gaharu (Aquilaria Malaccensis) bukan sekadar aroma wewangian mewah, melainkan tanaman obat kuno bernilai tinggi. Ekstrak getahnya kaya akan senyawa sesquiterpene dan agarospirol yang secara ilmiah merangsang gelombang alpha di otak untuk menenangkan batin dan merelaksasi saraf pusat.',
+      description: 'Gaharu (Aquilaria Malaccensis) bukan sekadar wewangian mewah, melainkan tanaman obat kuno yang membuyarkan stagnasi Ci dan menstabilkan Yin-Yang. Diperkaya intisari Cendana dan Rosemary yang menenangkan sistem saraf, melepas stres, dan menambah keharmonisan hubungan pasangan.',
       primaryBtnText: 'Konsultasi dengan Herbalist',
       primaryBtnHref: 'https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20tanya%20tentang%20khasiat%20ekstrak%20Gaharu.',
-      secondaryBtnText: 'Lihat 7 Bahan Alami',
+      secondaryBtnText: 'Lihat Komposisi Bahan',
       secondaryBtnHref: '#komposisi',
       visualType: 'agarwood-photo'
     },
     // SLIDE 3: KHASIAT UTAMA (PEGAL LINU, TIDUR NYENYAK, KEHANGATAN NYAMAN)
     {
       id: 3,
-      badge: 'Solusi Alami Insomnia Akut & Pegal Sendi',
+      badge: 'Solusi Alami Nyeri Sendi, Neuropati Diabetik & Insomnia',
       badgeIcon: Moon,
       bgImage: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80', // Holistic spa wellness & warm herbal therapy
       title: 'Tidur Pulas Tanpa Gelisah, Bangun Pagi Tubuh',
       titleHighlight: 'Segar Berenergi.',
-      description: 'Sensasi hangat mendalam dari jahe merah dan minyak cengkeh meresap hingga ke sendi tanpa rasa panas perih membakar. Dibalur pada telapak kaki dan punggung sebelum tidur, Gaharu Plus melepaskan kepenatan otot dan memberikan relaksasi mendalam untuk kualitas tidur terbaik.',
+      description: 'Sensasi hangat mendalam dari 100% rempah organik meresap hingga ke sendi tanpa rasa panas perih membakar. Dibalur pada lokasi keluhan dan telapak kaki sebelum tidur dan sesudah mandi, Gaharu Plus melepaskan kepenatan otot dan memberikan relaksasi tidur terbaik.',
       primaryBtnText: 'Klaim Paket Promo Sekarang',
       primaryBtnHref: '#paket',
       secondaryBtnText: 'Lihat Panduan Titik Balur',
