@@ -20,7 +20,7 @@ export default function FloatingWhatsApp() {
       <motion.a 
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.92 }}
-        href="https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20tanya%20seputar%20minyak%20balur%20Gaharu%20Plus." 
+        href="https://wa.me/6287888000551?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20tanya%20seputar%20minyak%20balur%20Gaharu%20Plus." 
         target="_blank" 
         rel="noopener noreferrer"
         className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-luxury focus:outline-none"

@@ -55,7 +55,7 @@ export default function CTASection() {
           <motion.a 
             whileHover={{ scale: 1.03, y: -2 }}
             whileTap={{ scale: 0.97 }}
-            href="https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20tertarik%20dengan%20promo%20Gaharu%20Plus%20dan%20ingin%20konsultasi%20pemesanan." 
+            href="https://wa.me/6287888000551?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20tertarik%20dengan%20promo%20Gaharu%20Plus%20dan%20ingin%20konsultasi%20pemesanan." 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-full bg-amberGold-500 hover:bg-amberGold-400 text-forest-950 font-bold text-base sm:text-lg shadow-gold-glow hover:shadow-2xl transition-all duration-300"
@@ -74,6 +74,14 @@ export default function CTASection() {
             <span>Kembali ke Atas</span>
           </motion.button>
         </motion.div>
+
+        {/* Direct Contact Numbers Pill */}
+        <div className="pt-2 flex flex-wrap items-center justify-center gap-4 text-xs text-amberGold-300">
+          <span>Layanan Cepat WhatsApp:</span>
+          <a href="https://wa.me/6287888000551" className="font-bold underline hover:text-white transition-colors">0878-8800-0551</a>
+          <span>•</span>
+          <a href="https://wa.me/6281318055557" className="font-bold underline hover:text-white transition-colors">0813-1805-5557</a>
+        </div>
 
         <motion.div 
           initial={{ opacity: 0 }}

@@ -167,7 +167,7 @@ export default function PricingPackages() {
                     <motion.a 
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      href={`https://wa.me/6281234567890?text=${encodeURIComponent(pkg.waMessage)}`}
+                      href={`https://wa.me/6287888000551?text=${encodeURIComponent(pkg.waMessage)}`}
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-full py-4 px-6 rounded-full bg-amberGold-500 hover:bg-amberGold-400 text-forest-950 font-extrabold text-sm sm:text-base text-center transition-all duration-200 block shadow-lg"
@@ -245,7 +245,7 @@ export default function PricingPackages() {
                   <motion.a 
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    href={`https://wa.me/6281234567890?text=${encodeURIComponent(pkg.waMessage)}`}
+                    href={`https://wa.me/6287888000551?text=${encodeURIComponent(pkg.waMessage)}`}
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-full py-3.5 px-6 rounded-full bg-forest-900 hover:bg-forest-850 text-linen-50 font-bold text-sm text-center transition-all duration-200 block"

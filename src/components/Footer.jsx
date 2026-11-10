@@ -46,11 +46,19 @@ export default function Footer() {
             <ul className="space-y-2 text-xs text-linen-300">
               <li className="flex items-center gap-1.5">
                 <Phone className="w-3.5 h-3.5 text-amberGold-400" />
-                <span>+62 812-3456-7890</span>
+                <a href="https://wa.me/6287888000551" target="_blank" rel="noopener noreferrer" className="hover:text-amberGold-300 transition-colors">
+                  WA 1: 0878-8800-0551
+                </a>
+              </li>
+              <li className="flex items-center gap-1.5">
+                <Phone className="w-3.5 h-3.5 text-amberGold-400" />
+                <a href="https://wa.me/6281318055557" target="_blank" rel="noopener noreferrer" className="hover:text-amberGold-300 transition-colors">
+                  WA 2: 0813-1805-5557
+                </a>
               </li>
               <li className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5 text-amberGold-400" />
-                <span>08.00 - 21.00 WIB</span>
+                <span>08.00 - 21.00 WIB (Setiap Hari)</span>
               </li>
               <li className="flex items-center gap-1.5">
                 <Mail className="w-3.5 h-3.5 text-amberGold-400" />

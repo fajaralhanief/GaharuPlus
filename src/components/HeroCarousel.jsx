@@ -32,7 +32,7 @@ export default function HeroCarousel() {
       titleHighlight: 'Gaharu Murni.',
       description: 'Minyak balur 100% Organik Natural Herbal dengan formula Anti Gatal & Alergi. Memadukan daun dan kayu Aquilaria malaccensis, Cendana, Rosemary, Zaitun, VCO, dan Cajuput oil. Cepat meresap tanpa lengket, meredakan rematik, neuropati diabetik, syaraf kejepit, maag, kembung, hingga memulihkan energi alami tubuh.',
       primaryBtnText: 'Pesan Cepat via WhatsApp',
-      primaryBtnHref: 'https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20tertarik%20dengan%20promo%20Gaharu%20Plus%20hari%20ini.',
+      primaryBtnHref: 'https://wa.me/6287888000551?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20tertarik%20dengan%20promo%20Gaharu%20Plus%20hari%20ini.',
       secondaryBtnText: 'Pelajari Khasiat & Manfaat',
       secondaryBtnHref: '#manfaat',
       visualType: 'product-photo'
@@ -47,7 +47,7 @@ export default function HeroCarousel() {
       titleHighlight: 'Melebihi Emas.',
       description: 'Gaharu (Aquilaria Malaccensis) bukan sekadar wewangian mewah, melainkan tanaman obat kuno yang membuyarkan stagnasi Ci dan menstabilkan Yin-Yang. Diperkaya intisari Cendana dan Rosemary yang menenangkan sistem saraf, melepas stres, dan menambah keharmonisan hubungan pasangan.',
       primaryBtnText: 'Konsultasi dengan Herbalist',
-      primaryBtnHref: 'https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20tanya%20tentang%20khasiat%20ekstrak%20Gaharu.',
+      primaryBtnHref: 'https://wa.me/6281318055557?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20tanya%20tentang%20khasiat%20ekstrak%20Gaharu.',
       secondaryBtnText: 'Lihat Komposisi Bahan',
       secondaryBtnHref: '#komposisi',
       visualType: 'agarwood-photo'

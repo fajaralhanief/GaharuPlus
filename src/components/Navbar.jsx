@@ -53,7 +53,7 @@ export default function Navbar() {
           <motion.a 
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            href="https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20konsultasi%20dan%20memesan%20minyak%20balur%20Gaharu%20Plus." 
+            href="https://wa.me/6287888000551?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20konsultasi%20dan%20memesan%20minyak%20balur%20Gaharu%20Plus." 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-forest-900 hover:bg-forest-850 text-linen-50 text-sm font-semibold tracking-wide shadow-md hover:shadow-lg transition-all duration-200 border border-forest-700"
@@ -100,7 +100,7 @@ export default function Navbar() {
             </div>
             <div className="pt-4">
               <a 
-                href="https://wa.me/6281234567890?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20konsultasi%20dan%20memesan%20Gaharu%20Plus." 
+                href="https://wa.me/6287888000551?text=Halo%20Admin%20Gaharu%20Plus,%20saya%20ingin%20konsultasi%20dan%20memesan%20Gaharu%20Plus." 
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
