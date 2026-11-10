@@ -11,7 +11,7 @@ export default function Testimonials() {
       tag: 'Pemulihan Stroke Ringan',
       complaint: 'Keluhan: Tangan kanan & jari kaku kebas (3 bulan pasca stroke, tensi 180/110)',
       quote: '"Selama 3 bulan terakhir saya berikhtiar pulih dari stroke ringan akibat tensi tinggi (180/110). Tangan kanan dan jari-jari saya kaku, kebas, dan sangat sulit digerakkan. Masya Allah, baru 30 menit dibalurkan minyak Gaharu Plus, reaksi hangatnya langsung terasa meresap. Tangan terasa jauh lebih enteng diangkat dan jari yang tadinya kaku mulai lentur—terutama jari telunjuk yang kaku alhamdulillah sekarang sudah bisa lurus kembali. Semua jari tangan kini leluasa digerakkan tanpa rasa kaku lagi. Semoga Allah memberikan kesembuhan total melalui wasilah minyak herbal ini."',
-      author: 'Bapak Canel (48 thn)',
+      author: 'Bapak Canel',
       role: 'Pasien Stroke Ringan — Pemulihan 3 Bulan',
       location: 'Ulasan Langsung Pengguna',
       avatar: '/testimonials/testi-1.jpg',
