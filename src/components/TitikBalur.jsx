@@ -152,7 +152,7 @@ export default function TitikBalur() {
                   </div>
 
                   <svg 
-                    className="w-full max-w-[190px] h-72 sm:h-80 drop-shadow-2xl transition-all duration-500" 
+                    className="w-full max-w-[195px] h-72 sm:h-80 drop-shadow-2xl transition-all duration-500" 
                     viewBox="0 0 200 320" 
                     fill="none" 
                     xmlns="http://www.w3.org/2000/svg"
@@ -176,82 +176,26 @@ export default function TitikBalur() {
 
                     {/* Garis Meridian Penyelaras Anatomi (Grid Halus) */}
                     <g opacity="0.12" stroke="#428E63" strokeWidth="0.8" strokeDasharray="2 3">
-                      <line x1="30" y1="68" x2="170" y2="68" />
-                      <line x1="30" y1="110" x2="170" y2="110" />
-                      <line x1="30" y1="150" x2="170" y2="150" />
-                      <line x1="30" y1="225" x2="170" y2="225" />
+                      <line x1="25" y1="72" x2="175" y2="72" />
+                      <line x1="25" y1="120" x2="175" y2="120" />
+                      <line x1="25" y1="163" x2="175" y2="163" />
+                      <line x1="25" y1="235" x2="175" y2="235" />
+                      <line x1="25" y1="290" x2="175" y2="290" />
                       <line x1="100" y1="10" x2="100" y2="310" strokeWidth="0.5" />
                     </g>
 
-                    {/* SILUET TUBUH ANATOMIS MANUSIA YANG JELAS & PROPORSIONAL */}
+                    {/* SILUET ANATOMIS TUBUH MANUSIA PROPORSIONAL & ALAMI (KAKI & TUBUH TEGAP) */}
                     <path 
-                      d="
-                        M100 16
-                        C107 16 112 21 112 28
-                        C112 36 108 43 105 46
-                        C105 48 107 53 111 55
-                        C118 57 127 61 133 67
-                        C138 72 140 78 140 85
-                        L141 125
-                        C141 135 139 146 138 156
-                        C137 163 134 169 130 171
-                        C127 172 125 169 125 165
-                        L127 135
-                        C128 120 128 108 126 95
-                        C125 90 122 86 118 84
-                        C116 89 116 102 116 115
-                        C116 126 114 136 116 146
-                        C118 155 120 164 121 174
-                        C121 184 117 195 116 206
-                        C115 218 115 230 114 240
-                        C113 248 114 256 114 266
-                        C114 275 113 285 112 294
-                        C111 300 114 304 117 305
-                        C120 306 120 309 118 310
-                        L104 310
-                        C102 309 103 305 105 301
-                        L107 282
-                        C107 266 107 250 106 235
-                        C105 215 104 195 102 175
-                        L100 175
-                        L98 175
-                        C96 195 95 215 94 235
-                        C93 250 93 266 93 282
-                        L95 301
-                        C97 305 98 309 96 310
-                        L82 310
-                        C80 309 80 306 83 305
-                        C86 304 89 300 88 294
-                        C87 285 86 275 86 266
-                        C86 256 87 248 86 240
-                        C85 230 85 218 84 206
-                        C83 195 79 184 79 174
-                        C80 164 82 155 84 146
-                        C86 136 84 126 84 115
-                        C84 102 84 89 82 84
-                        C78 86 75 90 74 95
-                        C72 108 72 120 73 135
-                        L75 165
-                        C75 169 73 172 70 171
-                        C66 169 63 163 62 156
-                        C61 146 59 135 59 125
-                        L60 85
-                        C60 78 62 72 67 67
-                        C73 61 82 57 89 55
-                        C93 53 95 48 95 46
-                        C92 43 88 36 88 28
-                        C88 21 93 16 100 16
-                        Z
-                      "
+                      d="M 100 18 C 108 18 114 23 114 32 C 114 42 108 48 106 52 C 106 54 107 58 108 62 C 115 64 126 67 134 72 C 139 75 142 82 143 92 C 144 102 143 114 141 126 C 140 136 137 148 134 160 C 132 166 131 174 129 184 C 128 187 125 187 124 184 C 123 174 124 164 126 154 C 127 144 129 132 129 120 C 129 108 127 98 122 92 C 120 96 117 106 116 118 C 115 126 116 136 118 146 C 120 154 122 164 122 176 C 122 190 120 206 118 222 C 117 230 117 236 117 242 C 119 250 119 262 116 274 C 114 282 114 290 115 296 C 116 301 116 304 113 305 L 99 305 C 98 304 99 300 101 296 C 102 290 103 282 103 274 C 103 262 104 250 104 242 C 104 236 104 230 103 222 C 103 206 102 190 101 174 C 101 168 100.5 164 100 163 C 99.5 164 99 168 99 174 C 98 190 97 206 97 222 C 96 230 96 236 96 242 C 96 250 97 262 97 274 C 97 282 98 290 99 296 C 101 300 102 304 101 305 L 87 305 C 84 304 84 301 85 296 C 86 290 86 282 84 274 C 81 262 81 250 83 242 C 83 236 83 230 82 222 C 80 206 78 190 78 176 C 78 164 80 154 82 146 C 84 136 85 126 84 118 C 83 106 80 96 78 92 C 73 98 71 108 71 120 C 71 132 73 144 74 154 C 76 164 77 174 76 184 C 75 187 72 187 71 184 C 69 174 68 166 66 160 C 63 148 60 136 59 126 C 57 114 56 102 57 92 C 58 82 61 75 66 72 C 74 67 85 64 92 62 C 93 58 94 54 94 52 C 92 48 86 42 86 32 C 86 23 92 18 100 18 Z"
                       fill="url(#bodyGradient)"
-                      stroke="#2E6646"
-                      strokeWidth="1.6"
+                      stroke="#326E4C"
+                      strokeWidth="1.8"
                       strokeLinejoin="round"
                     />
 
-                    {/* Garis Halus Tulang Selangka / Clavicle */}
+                    {/* Garis Tulang Selangka / Clavicle & Lekuk Dada */}
                     <path 
-                      d="M88 62C94 64 97 65 100 65C103 65 106 64 112 62" 
+                      d="M86 64C93 66 97 67 100 67C103 67 107 66 114 64" 
                       stroke="#428E63" 
                       strokeWidth="1.2" 
                       strokeLinecap="round" 
@@ -261,24 +205,24 @@ export default function TitikBalur() {
                     {/* 1. SEPANJANG TULANG BELAKANG (SPINE MERIDIAN) */}
                     <g className={`transition-all duration-500 ${currentData.activeVisual === 'spine' ? 'opacity-100' : 'opacity-20'}`}>
                       {/* Aura Kolom Tulang Belakang */}
-                      <line x1="100" y1="62" x2="100" y2="170" stroke="#D59B1E" strokeWidth="8" strokeLinecap="round" opacity="0.4" />
-                      <line x1="100" y1="62" x2="100" y2="170" stroke="#E3B03E" strokeWidth="2.5" strokeLinecap="round" />
+                      <line x1="100" y1="62" x2="100" y2="162" stroke="#D59B1E" strokeWidth="8" strokeLinecap="round" opacity="0.4" />
+                      <line x1="100" y1="62" x2="100" y2="162" stroke="#E3B03E" strokeWidth="2.5" strokeLinecap="round" />
                       {/* Titik Vertebrae / Simpul Saraf */}
                       <circle cx="100" cy="65" r="4.5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'spine' ? 'animate-pulse' : ''} />
-                      <circle cx="100" cy="85" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
-                      <circle cx="100" cy="110" r="5.5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'spine' ? 'animate-pulse' : ''} />
+                      <circle cx="100" cy="88" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="100" cy="112" r="5.5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'spine' ? 'animate-pulse' : ''} />
                       <circle cx="100" cy="138" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
-                      <circle cx="100" cy="165" r="4" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="100" cy="160" r="4" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
                     </g>
 
                     {/* 2. TELAPAK & SELA JARI KAKI (FEET REFLEXOLOGY) */}
                     <g className={`transition-all duration-500 ${currentData.activeVisual === 'feet' ? 'opacity-100' : 'opacity-20'}`}>
-                      {/* Aura Telapak Kaki */}
-                      <ellipse cx="89" cy="304" rx="10" ry="6" fill="#E3B03E" opacity="0.5" className={currentData.activeVisual === 'feet' ? 'animate-pulse' : ''} />
-                      <ellipse cx="111" cy="304" rx="10" ry="6" fill="#E3B03E" opacity="0.5" className={currentData.activeVisual === 'feet' ? 'animate-pulse' : ''} />
+                      {/* Aura Telapak Kaki Proposional */}
+                      <ellipse cx="94" cy="301" rx="8" ry="4" fill="#E3B03E" opacity="0.5" className={currentData.activeVisual === 'feet' ? 'animate-pulse' : ''} />
+                      <ellipse cx="106" cy="301" rx="8" ry="4" fill="#E3B03E" opacity="0.5" className={currentData.activeVisual === 'feet' ? 'animate-pulse' : ''} />
                       {/* Titik Pusat Refleksi Kaki */}
-                      <circle cx="89" cy="304" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
-                      <circle cx="111" cy="304" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="94" cy="301" r="4.5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="106" cy="301" r="4.5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
                     </g>
 
                     {/* 3. AREA DADA & PERUT (CHEST & ABDOMINAL MERIDIAN) */}
@@ -288,21 +232,21 @@ export default function TitikBalur() {
                       <circle cx="100" cy="90" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
                       
                       {/* Aura Lingkaran Perut (Solar Plexus & Pusar) */}
-                      <circle cx="100" cy="132" r="19" fill="url(#meridianAura)" className={currentData.activeVisual === 'chest' ? 'animate-pulse' : ''} />
-                      <circle cx="100" cy="132" r="7" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="100" cy="130" r="19" fill="url(#meridianAura)" className={currentData.activeVisual === 'chest' ? 'animate-pulse' : ''} />
+                      <circle cx="100" cy="130" r="7" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
                     </g>
 
                     {/* 4. AREA SENDI & TITIK KELUHAN (KEY ARTICULATIONS & JOINTS) */}
                     <g className={`transition-all duration-500 ${currentData.activeVisual === 'joints' ? 'opacity-100' : 'opacity-20'}`}>
                       {/* Sendi Bahu Kiri & Kanan */}
-                      <circle cx="72" cy="74" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
-                      <circle cx="128" cy="74" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
+                      <circle cx="74" cy="74" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
+                      <circle cx="126" cy="74" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
                       {/* Sendi Pergelangan Tangan / Jari */}
-                      <circle cx="60" cy="162" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
-                      <circle cx="140" cy="162" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
-                      {/* Sendi Lutut Kiri & Kanan */}
-                      <circle cx="88" cy="225" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
-                      <circle cx="112" cy="225" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
+                      <circle cx="67" cy="160" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="133" cy="160" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      {/* Sendi Lutut Kiri & Kanan (Tepat di Tempurung Lutut Proporsional) */}
+                      <circle cx="89.5" cy="235" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
+                      <circle cx="110.5" cy="235" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
                     </g>
                   </svg>
 
