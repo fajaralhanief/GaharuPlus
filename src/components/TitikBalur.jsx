@@ -184,9 +184,9 @@ export default function TitikBalur() {
                       <line x1="100" y1="10" x2="100" y2="310" strokeWidth="0.5" />
                     </g>
 
-                    {/* SILUET ANATOMIS TUBUH MANUSIA PROPORSIONAL & ALAMI (KAKI & TUBUH TEGAP) */}
+                    {/* SILUET ANATOMIS TUBUH MANUSIA: LENGAN LURUS ALAMI + KAKI & TUBUH PROPORSIONAL */}
                     <path 
-                      d="M 100 18 C 108 18 114 23 114 32 C 114 42 108 48 106 52 C 106 54 107 58 108 62 C 115 64 126 67 134 72 C 139 75 142 82 143 92 C 144 102 143 114 141 126 C 140 136 137 148 134 160 C 132 166 131 174 129 184 C 128 187 125 187 124 184 C 123 174 124 164 126 154 C 127 144 129 132 129 120 C 129 108 127 98 122 92 C 120 96 117 106 116 118 C 115 126 116 136 118 146 C 120 154 122 164 122 176 C 122 190 120 206 118 222 C 117 230 117 236 117 242 C 119 250 119 262 116 274 C 114 282 114 290 115 296 C 116 301 116 304 113 305 L 99 305 C 98 304 99 300 101 296 C 102 290 103 282 103 274 C 103 262 104 250 104 242 C 104 236 104 230 103 222 C 103 206 102 190 101 174 C 101 168 100.5 164 100 163 C 99.5 164 99 168 99 174 C 98 190 97 206 97 222 C 96 230 96 236 96 242 C 96 250 97 262 97 274 C 97 282 98 290 99 296 C 101 300 102 304 101 305 L 87 305 C 84 304 84 301 85 296 C 86 290 86 282 84 274 C 81 262 81 250 83 242 C 83 236 83 230 82 222 C 80 206 78 190 78 176 C 78 164 80 154 82 146 C 84 136 85 126 84 118 C 83 106 80 96 78 92 C 73 98 71 108 71 120 C 71 132 73 144 74 154 C 76 164 77 174 76 184 C 75 187 72 187 71 184 C 69 174 68 166 66 160 C 63 148 60 136 59 126 C 57 114 56 102 57 92 C 58 82 61 75 66 72 C 74 67 85 64 92 62 C 93 58 94 54 94 52 C 92 48 86 42 86 32 C 86 23 92 18 100 18 Z"
+                      d="M 100 18 C 108 18 114 23 114 32 C 114 42 108 48 106 52 C 106 54 107 58 108 62 C 115 64 124 66 132 69 C 134 72 135 78 135 88 C 135 98 134 114 134 128 C 134 138 133 152 132 164 C 131 172 130 178 129 184 C 128 186 125 186 124 184 C 123 178 124 172 125 164 C 126 152 126 138 126 128 C 126 118 125 106 123 94 C 122 92 121 91 120 92 C 119 98 117 108 116 118 C 115 126 116 136 118 146 C 120 154 122 164 122 176 C 122 190 120 206 118 222 C 117 230 117 236 117 242 C 119 250 119 262 116 274 C 114 282 114 290 115 296 C 116 301 116 304 113 305 L 99 305 C 98 304 99 300 101 296 C 102 290 103 282 103 274 C 103 262 104 250 104 242 C 104 236 104 230 103 222 C 103 206 102 190 101 174 C 101 168 100.5 164 100 163 C 99.5 164 99 168 99 174 C 98 190 97 206 97 222 C 96 230 96 236 96 242 C 96 250 97 262 97 274 C 97 282 98 290 99 296 C 101 300 102 304 101 305 L 87 305 C 84 304 84 301 85 296 C 86 290 86 282 84 274 C 81 262 81 250 83 242 C 83 236 83 230 82 222 C 80 206 78 190 78 176 C 78 164 80 154 82 146 C 84 136 85 126 84 118 C 83 108 81 98 80 92 C 79 91 78 92 77 94 C 75 106 74 118 74 128 C 74 138 74 152 75 164 C 76 172 77 178 76 184 C 75 186 72 186 71 184 C 70 178 69 172 68 164 C 67 152 66 138 66 128 C 66 114 65 98 65 88 C 65 78 66 72 68 69 C 76 66 85 64 92 62 C 93 58 94 54 94 52 C 92 48 86 42 86 32 C 86 23 92 18 100 18 Z"
                       fill="url(#bodyGradient)"
                       stroke="#326E4C"
                       strokeWidth="1.8"
@@ -239,11 +239,11 @@ export default function TitikBalur() {
                     {/* 4. AREA SENDI & TITIK KELUHAN (KEY ARTICULATIONS & JOINTS) */}
                     <g className={`transition-all duration-500 ${currentData.activeVisual === 'joints' ? 'opacity-100' : 'opacity-20'}`}>
                       {/* Sendi Bahu Kiri & Kanan */}
-                      <circle cx="74" cy="74" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
-                      <circle cx="126" cy="74" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
-                      {/* Sendi Pergelangan Tangan / Jari */}
-                      <circle cx="67" cy="160" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
-                      <circle cx="133" cy="160" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="73" cy="73" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
+                      <circle cx="127" cy="73" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
+                      {/* Sendi Pergelangan Tangan (Tepat di Pergelangan Tangan yang Lurus) */}
+                      <circle cx="71.5" cy="164" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
+                      <circle cx="128.5" cy="164" r="5" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" />
                       {/* Sendi Lutut Kiri & Kanan (Tepat di Tempurung Lutut Proporsional) */}
                       <circle cx="89.5" cy="235" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
                       <circle cx="110.5" cy="235" r="6" fill="#E3B03E" stroke="#112519" strokeWidth="1.2" className={currentData.activeVisual === 'joints' ? 'animate-pulse' : ''} />
