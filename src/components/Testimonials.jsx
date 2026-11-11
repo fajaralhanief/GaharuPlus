@@ -208,9 +208,9 @@ export default function Testimonials() {
           <div className="md:col-span-3 text-center md:text-left flex flex-col items-center md:items-start">
             <div className="relative mb-2">
               <img
-                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=240&q=80"
-                alt="Tony Yulianto Praktisi Herbal"
-                className="w-16 h-16 rounded-2xl object-cover shadow-md border-2 border-amberGold-400"
+                src="/testimonials/expert-praktisi.jpg"
+                alt="Praktisi Herbal Medis Gaharu Plus"
+                className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover object-[center_25%] shadow-md border-2 border-amberGold-400"
                 loading="lazy"
               />
               <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-forest-900 text-amberGold-400 flex items-center justify-center text-xs">
